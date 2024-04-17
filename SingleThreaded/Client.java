@@ -9,6 +9,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 public class Client {
+    
     public void run() throws UnknownHostException, IOException {
         int port = 8010;
         InetAddress address = InetAddress.getByName("localhost"); // as server will run on our local machine, so it will give the IP of our machine( localhost )
